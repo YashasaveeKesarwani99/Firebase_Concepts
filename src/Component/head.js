@@ -40,7 +40,7 @@ function Head() {
           {Object.keys(contactObjects).map((obj) => {
             return (
               <tr>
-                <td>{contactObjects[obj].Fullname}</td>
+                <td>{contactObjects[obj].fullname}</td>
                 <td>{contactObjects[obj].mobile}</td>
                 <td>{contactObjects[obj].email}</td>
                 <td>{contactObjects[obj].address}</td>
