@@ -1,0 +1,22 @@
+form {
+  margin-top: 2.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  margin: 5px;
+  width: 80%;
+  font-size: 1em;
+  border: none;
+  border-bottom: solid black;
+  padding: 5px;
+}
+input:nth-child(6) {
+  background-color: black;
+  color: white;
+}
+input:focus {
+  outline: none;
+}

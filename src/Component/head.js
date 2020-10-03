@@ -1,17 +1,20 @@
-import React, { Component } from "react";
+import React, { useEffect, useState } from "react";
 import ContactForm from "./contactForm";
 import "./head.css";
-class Head extends Component {
-  addOrEdit(values) {}
+import fire from "../fire";
+function Head() {
+  var addOrEdit = (values) => {
+    //building object for pushing data into database
+    var firedb = fire.database().ref();
+    firedb.child("contacts").push(values);
+  };
 
-  render() {
-    return (
-      <>
-        <div className="header">Contact Register</div>
-        <ContactForm addOrEdit={this.addOrEdit} />
-      </>
-    );
-  }
+  return (
+    <>
+      <div className="header">Contact Register</div>
+      <ContactForm addOrEdit={addOrEdit} />
+    </>
+  );
 }
 
 export default Head;

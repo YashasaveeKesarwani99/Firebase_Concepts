@@ -1,5 +1,5 @@
 import React from "react";
-
+import firebase from "firebase";
 var firebaseConfig = {
   apiKey: "AIzaSyBJPAz3zw5k6XeASHbtP3jifzDQ08MjPOk",
   authDomain: "contact-register.firebaseapp.com",

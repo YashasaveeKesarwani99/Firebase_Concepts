@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import "./contactForm.css";
 export default function ContactForm(props) {
   const initialValues = {
     fullname: "",
