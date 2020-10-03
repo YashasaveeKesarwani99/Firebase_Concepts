@@ -19,11 +19,18 @@ It provides you with realtime database free for a month.
 
 WebApps - firebase provides three ways to configure and connect our app with firebase database. The 'firebase' package should be installed
 in the app using npm or yarn
+Functions used in CRUD operations-
+database()
+ref()
+child()
+push()
+on()
+set()
+remove()
 
 the config setting for react base app looks like this
-  
-  
- var firebaseConfig = {
+
+var firebaseConfig = {
 apiKey: "AIzaS5k6XeASHbtP3jifzDQ08MjPOk",
 authDomain: "contact-register.firebaseapp.com",
 databaseURL: "https://contact-reer.firebaseio.com",
