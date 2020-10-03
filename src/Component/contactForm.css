@@ -4,9 +4,10 @@ form {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 80%;
 }
 input {
-  margin: 5px;
+  margin: auto;
   width: 80%;
   font-size: 1em;
   border: none;

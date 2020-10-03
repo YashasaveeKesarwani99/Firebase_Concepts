@@ -24,7 +24,7 @@ function Head() {
   };
 
   return (
-    <>
+    <div>
       <div className="header">Contact Register</div>
       <ContactForm addOrEdit={addOrEdit} />
       <table>
@@ -49,7 +49,7 @@ function Head() {
           })}
         </tbody>
       </table>
-    </>
+    </div>
   );
 }
 

@@ -57,3 +57,7 @@ We'll make a simple web app to show how firebase works, we will be making a cont
 2. One can easily loop through an array with map function but if its an object you have to first loop
    through the keys.
 3. useEffect has two parameter, one is a callback function and the second one is an empty array which determines how many times it will be executed.
+
+
+#Up and running on
+  https://csb-ydj1q.netlify.app/
